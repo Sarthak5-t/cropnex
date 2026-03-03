@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { Phone, Mail, MapPin, Send, Loader2, CheckCircle2 } from 'lucide-react';
 
@@ -41,6 +42,10 @@ function Contact() {
 
     return (
         <div className="font-sans bg-surface pb-24">
+            <Helmet>
+                <title>Contact Us | Cropnex</title>
+                <meta name="description" content="Get in touch with Cropnex Fourson Organic OPC Pvt. Ltd. Our agricultural experts are ready to help you transition to sustainable, high-yield farming." />
+            </Helmet>
             {/* Dynamic Header */}
             <div className="relative pt-32 pb-24 bg-[#0A1A10] overflow-hidden text-center z-0">
                 {/* Abstract Background Shapes */}

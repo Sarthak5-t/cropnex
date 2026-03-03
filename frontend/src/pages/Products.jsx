@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import ProductCard from '../components/ProductCard';
 
 function Products() {
@@ -42,6 +43,10 @@ function Products() {
 
     return (
         <div className="font-sans min-h-screen bg-gray-50 pb-20">
+            <Helmet>
+                <title>Organic Agricultural Products | Cropnex</title>
+                <meta name="description" content="Explore our complete line of organic fertilizers, fungicides, and insecticides designed to boost soil health and protect your crops naturally." />
+            </Helmet>
             {/* Header */}
             <div className="bg-primary text-white py-16 text-center">
                 <h1 className="text-4xl font-heading font-bold mb-4">Our Products</h1>

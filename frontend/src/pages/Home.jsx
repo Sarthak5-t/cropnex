@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -35,6 +36,10 @@ const FadeInWhenVisible = ({ children, delay = 0, className = "" }) => {
 function Home() {
     return (
         <div className="font-sans overflow-x-hidden pt-10">
+            <Helmet>
+                <title>Cropnex - 100% Organic Fertilizers & Pesticides</title>
+                <meta name="description" content="Discover Cropnex Fourson Organic OPC Pvt. Ltd. We provide scientifically backed, 100% organic solutions to maximize crop yields sustainably." />
+            </Helmet>
 
             {/* 1. HERO SECTION - Advanced Gradient & Image Base */}
             <section className="relative min-h-[90vh] flex items-center justify-center pt-24 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden bg-[#0A1A10]">

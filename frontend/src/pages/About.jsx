@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { Target, Lightbulb, Users, Award } from 'lucide-react';
 
@@ -20,6 +21,10 @@ function About() {
 
     return (
         <div className="font-sans bg-surface pb-24">
+            <Helmet>
+                <title>About Us | Cropnex Fourson Organic</title>
+                <meta name="description" content="Learn about the journey of Cropnex Fourson Organic OPC Pvt. Ltd., dedicated to promoting sustainable organic farming since our foundation." />
+            </Helmet>
             {/* Dynamic Header */}
             <div className="relative pt-32 pb-20 bg-[#0A1A10] overflow-hidden text-center z-0">
                 <div className="absolute inset-0 z-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1595841696677-6489ff3f8b1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center"></div>
