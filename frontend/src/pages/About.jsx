@@ -55,7 +55,7 @@ function About() {
                             <div className="w-16 h-1 bg-secondary mb-8 rounded-full"></div>
                             <div className="prose prose-lg text-gray-600 space-y-5 leading-relaxed">
                                 <p>
-                                    <b>Cropnex Fourson Organic OPC Pvt. Ltd.</b> was established in 2015 out of a profound necessity. We witnessed firsthand the devastating impact of conventional chemical agriculture on land degradation, declining yields over time, and deteriorating farmer health.
+                                    <b>Cropnex Fourson Organic OPC Pvt. Ltd.</b> was a oragnic product company. We witnessed firsthand the devastating impact of conventional chemical agriculture on land degradation, declining yields over time, and deteriorating farmer health.
                                 </p>
                                 <p>
                                     Our founders, a dedicated team of passionate agricultural scientists and experienced farmers, rejected the notion that toxic chemicals were necessary for high yields.
